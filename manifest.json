@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "OverlayAI",
+  "version": "1.0",
+  "description": "Extensión que permite utilizar inteligencias artificiales en la barra del navegador",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "png/icon.png"
+    }
+  },
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"]
+}
